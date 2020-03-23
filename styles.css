@@ -1,0 +1,70 @@
+#navbar{
+    background-color: white;
+    display: flex;
+}
+
+#menu{
+    float: left;
+    overflow: hidden;
+    width:10%
+}
+
+#logo{
+    overflow: hidden;
+    width:20%
+}
+
+#textBox{
+    overflow: hidden;
+    width:50%;
+}
+
+#search{
+
+    overflow: hidden;
+    width:50%;
+}
+
+#camera{
+    overflow: hidden;
+    width:70%
+}
+
+#nineDotIcon{
+    overflow: hidden;
+    width:80%
+}
+
+#ring{
+    overflow: hidden;
+    width:90%;
+    background-color;white:
+}
+
+#profilIcon{
+    overflow: hidden;
+    width:95%
+}
+
+#bar{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+#main{
+    display:flex;
+}
+#video{
+    background-color: blue;
+    float: left;
+    width: 70%;
+    overflow: hidden;
+
+}
+
+#sidebar{
+    background-color: yellow;
+    overflow: hidden;
+}
