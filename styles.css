@@ -60,7 +60,7 @@
     display:flex;
 }
 #video{
-    background-color: blue;
+    background-color: white;
     float: left;
     width: 70%;
     height: auto;
@@ -79,8 +79,12 @@
     width: 30%;
  
 }
+#description{
+    display: flex;
+}
 
 #descriptionText{
+    
     position: relative;
     left: 70px;
     width: 70%;
@@ -88,7 +92,7 @@
 
 
 #sidebar{
-    background-color: yellow;
+    background-color: white;
     overflow: hidden;
 }
 
@@ -108,4 +112,14 @@
 #autoplayButton{
     overflow: hidden;
     width: 10%;
+}
+
+#subscribe{
+    overflow: hidden;
+    width: 30%;
+}
+
+#userIcon{
+    overflow: hidden;
+    width: 80%;
 }
