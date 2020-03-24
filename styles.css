@@ -10,6 +10,7 @@
 }
 
 #logo{
+    
     overflow: hidden;
     width:20%
 }
@@ -20,30 +21,32 @@
 }
 
 #search{
-
+    float:left;
     overflow: hidden;
-    width:50%;
+    width:10%;
 }
 
 #camera{
+    left:0px;
     overflow: hidden;
-    width:70%
+    width:10%
 }
 
 #nineDotIcon{
+    left:0px;
     overflow: hidden;
-    width:80%
+    width:10%
 }
 
 #ring{
     overflow: hidden;
-    width:90%;
+    width:10%;
     background-color;white:
 }
 
 #profilIcon{
     overflow: hidden;
-    width:95%
+    width:10%
 }
 
 #bar{
