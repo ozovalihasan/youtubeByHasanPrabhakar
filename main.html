@@ -2,30 +2,30 @@
 <html>
 <head>
     <link rel="stylesheet" href="styles.css">
-
-    
+   
 </head>
+
 <body>
+   
     <nav id="navbar">
-        <div id="menu">
-            <div id="bar"></div>
-            <div id="bar"></div>
-            <div id="bar"></div>
+        
+        <div id="menu" >
+            <img src="menuButton.png" alt="">
         </div>
         <div id="logo" >
             <img src="https://www.hubogi.com/wp-content/uploads/2017/09/Hubogi-Youtube-Yeni-Logo-ve-Sayfa-D%C3%BCzeni-Degisikliklerini-Aclikadi.jpg" alt="" style="width:80px;height:40px">
         </div>
 
         <div id="textBox" >
-            <input type="text" width="150">
+            <input type="text" size="70" placeholder="Search">
         </div> 
 
         <div id="search" >
-            <img src="searchIcon.png" alt="" style="width: 60px;height:40px">
+            <img id="searchIcon" src="searchIcon.png" alt="" >
         </div>  
 
         <div id="camera">
-            <img src="cameraIcon.png" alt="" style="width:60px;height:40px">
+            <img src="cameraIcon.png" alt="" >
         </div>
 
         <div id="nineDotIcon">
@@ -44,6 +44,9 @@
     </nav>
     
     <main>
+        <br>
+        <br>
+        <br>
         <section id="video">
             <iframe width="100%" height="550" src="https://www.youtube.com/embed/7v6zCPreqYs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div id="nameVideo">
@@ -54,7 +57,20 @@
                     <img src="view.png" alt="">
                 </div>
                 <div id="likeBar">
-                    <img src="likeBar.png" alt="">
+
+                    <img id="likeBarElement" src="likeButton.png" alt="">
+                    <h2 id="likeBarElement">406</h2>
+                    <img id="likeBarElement" src="unlikeButton.png" alt="">
+                    <h2 id="likeBarElement" >16</h2>
+                    <button id="shareButtonAll">
+                        <img id="likeBarElement"  src="shareButton.png" alt="">
+                        <h2 id="likeBarElement" >SHARE</h2>
+                    </button>
+                    
+                    <img id="likeBarElement"  src="addListButton.png" alt="">
+                    <h2 id="likeBarElement" >SAVE</h2>
+                    <img id="likeBarElement"  src="threeDotButton.png" alt="">
+                  
                 </div>
             </div>
 
@@ -64,42 +80,71 @@
                 <div id="userIcon" >
                     <img src="userIcon.png" alt="">
                 </div>
-                <div id="subscribe">
-                    <img src="subscribe.PNG" alt="">
-                </div>
+                <button id="subscribe">
+                    <img src="subscribe.PNG" alt="">  
+                </button>
                 
             </div>
 
             <p id="descriptionText">A befitting tribute to former PM #AtalBihariVajpayee, India’s longest Rail-cum-Road Bridge, #BogibeelBridge over river Brahmaputra is a construction marvel and a milestone for the development of North East. Watch to know more.</p>
 
-         <!--   <div id="description">
-                <div>
-                    <img id="userIcon" src="userIcon.png" alt="">
-                </div>
-                
-                <div id="subscribe">
-                    <img src="subscribe.PNG" alt="subscribe">
-                </div>
-                <p id="descriptionText">A befitting tribute to former PM #AtalBihariVajpayee, India’s longest Rail-cum-Road Bridge, #BogibeelBridge over river Brahmaputra is a construction marvel and a milestone for the development of North East. Watch to know more.</p>
-            </div>  -->
         </section>
 
-        <section id="sidebar">
+
+        <aside id="sidebar">
             <div id="nextBar">
                 <h1 id="nextText">Up Next</h1>
                 <h1 id="autoplay">Autoplay</h1>
                 <img id="autoplayButton" src="sidebar/autoplayButton.png" alt="">
                 </div>
             </div>
-            <img src="sidebar\suggestion1.png" alt="" >
-            <img src="sidebar\suggestion2.png" alt="" >
-            <img src="sidebar\suggestion3.png" alt="" >
-            <img src="sidebar\suggestion4.png" alt="" >
-            <img src="sidebar\suggestion5.png" alt="" >
-            <img src="sidebar\suggestion6.png" alt="" >
+            <div id="suggestions">
+                <div id="suggestionElement"> 
+                    <img id="sugImage" src="sidebar\suggestion1.png" alt="" >
+                    <div id="sugProperites">
+                        <h2 id="sugName">Your First GitHub Pull Request (in 10 Mins)</h2>
+                        <h2 id="sugAuthor">Jackson Bates</h2>
+                        <h2 id="sugView">43 K view</h2>
+                    </div>                    
+                </div>
+                <div id="suggestionElement"> 
+                    <img id="sugImage" src="sidebar\suggestion2.png" alt="" >
+                    <div id="sugProperites">
+                        <h2 id="sugName">Contributing to Open Source Part I: The Easy Way - YouTube</h2>
+                        <h2 id="sugAuthor">The Odin Project</h2>
+                        <h2 id="sugView">33 K view</h2>
+                    </div>                    
+                </div>
+                <div id="suggestionElement"> 
+                    <img id="sugImage" src="sidebar\suggestion3.png" alt="" >
+                    <div id="sugProperites">
+                        <h2 id="sugName">Anjana Vakil: Javascript ile Fonksiyonel Programlamayı ... </h2>
+                        <h2 id="sugAuthor">JSUnconf</h2>
+                        <h2 id="sugView">1.3 Mn view</h2>
+                    </div>                    
+                </div>
+                <div id="suggestionElement"> 
+                    <img id="sugImage" src="sidebar\suggestion4.png" alt="" >
+                    <div id="sugProperites">
+                        <h2 id="sugName">14 Must Know Chrome Dev Tools Tricks - #JavaScript30 ...</h2>
+                        <h2 id="sugAuthor">Wes Bos</h2>
+                        <h2 id="sugView">63 K view</h2>
+                    </div>                    
+                </div>
+                <div id="suggestionElement"> 
+                    <img id="sugImage" src="sidebar\suggestion5.png" alt="" >
+                    <div id="sugProperites">
+                        <h2 id="sugName">What Python Projects Should I Build to Get a Job? </h2>
+                        <h2 id="sugAuthor">Real Python</h2>
+                        <h2 id="sugView">187 K view</h2>
+                    </div>                    
+                </div>
+            </div>
+
+
 
           
-        </section>
+        </aside>
     </main>
 
 
