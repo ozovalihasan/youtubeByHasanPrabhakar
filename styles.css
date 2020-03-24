@@ -68,7 +68,44 @@
 
 }
 
+#infoBar{
+    display: flex;
+}
+
+
+#viewNumber{
+ 
+    overflow: hidden;
+    width: 30%;
+ 
+}
+
+#descriptionText{
+    position: relative;
+    left: 70px;
+    width: 70%;
+}
+
+
 #sidebar{
     background-color: yellow;
     overflow: hidden;
+}
+
+#nextBar{
+    display: flex;
+}
+
+#nextText{
+    overflow: hidden;
+    width: 70%;
+}
+
+#autoplay{
+    overflow: hidden;
+    width: 30%;
+}
+#autoplayButton{
+    overflow: hidden;
+    width: 10%;
 }
