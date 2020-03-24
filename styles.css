@@ -16,6 +16,13 @@
 }
 
 #textBox{
+
+        display: inline-block;
+        border: 1px solid lightgray;
+        border-radius: 2px;
+        margin-left: 130px;
+        margin-right: 90px;
+  
     overflow: hidden;
     width:50%;
 }
