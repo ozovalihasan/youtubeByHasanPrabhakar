@@ -31,9 +31,16 @@
     overflow: hidden;
     width:20%;
 }
-#searchIcon{
-    height: 21px;
+
+#searchButton{
+    background-color: transparent;
     border: solid gray 2px;
+}
+
+#searchIcon{
+    
+    height: 20px;
+   
     
 }
 
