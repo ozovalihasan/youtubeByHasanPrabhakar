@@ -104,14 +104,14 @@
     
 }
 
-h2#likeBarElement{
+h2.likeBarElement{
     color: gray;
     height: 20px;
     margin-top:5px;
     
 }
 
-#likeBarElement{
+.likeBarElement{
     height: auto;
    
     font-size: 12px;
@@ -167,32 +167,32 @@ h2#likeBarElement{
   
 }
 
-#suggestionElement{
+.suggestionElement{
     display: flex;
     height: 100px;
 }
 
-#sugImage{
+.sugImage{
 
     overflow: hidden;
     width: 168px;
 }
 
-#sugProperites{
+.sugProperites{
     font-size: 10px;
     width: 50%;
     overflow: hidden;
 }
-#sugName{
+.sugName{
     font-size: 14px;
 }
 
-#sugAuthor {
+.sugAuthor {
     font-size: 13px;
     color:gray;
 }
 
-#sugView{
+.sugView{
     font-size: 13px;
     color:gray;
 }
