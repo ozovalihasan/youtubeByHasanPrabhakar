@@ -4,7 +4,7 @@
     display: flex;
     width:100%;
     top: 0px;
-    padding-top:20px;
+    padding-top:15px;
 }
 
 #menu{
@@ -15,7 +15,7 @@
 
 #logo{
     overflow: hidden;
-    width:250px;
+    width:350px;
 }
 
 #textBox{
@@ -159,11 +159,11 @@ h2#likeBarElement{
 #autoplay{
     font-size: 18px;
     overflow: hidden;
-    width: 30%;
+    width: 20%;
 }
 #autoplayButton{
     overflow: hidden;
-    height: 60px;
+    height: 50px;
   
 }
 
